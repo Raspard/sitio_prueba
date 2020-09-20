@@ -1,4 +1,5 @@
 <?php
+the_content();
 /**
  * The template for displaying all pages.
  *
@@ -40,6 +41,5 @@ get_header(); ?>
 	<?php get_sidebar(); ?>
 
 <?php endif ?>
-
-
+<?php the_content(); ?>
 <?php get_footer(); ?>
